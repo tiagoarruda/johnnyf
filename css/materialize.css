@@ -2310,6 +2310,22 @@ dfn {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+  font-family: duke;
+}
+
+@font-face {
+    font-family: dukeFill;
+    src: url('../font/duke/DukeFill.otf');
+}
+
+@font-face {
+    font-family: dukeShadow;
+    src: url('../font/duke/DukeShadow.otf');
+}
+
+@font-face {
+    font-family: duke;
+    src: url('../font/duke/Duke.otf');
 }
 
 /**
@@ -7541,6 +7557,10 @@ html {
   html {
     font-size: 15px;
   }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: dukeFill;
 }
 
 h1, h2, h3, h4, h5, h6 {

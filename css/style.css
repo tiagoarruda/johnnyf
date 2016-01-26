@@ -55,3 +55,18 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+@font-face {
+    font-family: dukeFill;
+    src: url('../duke/font/DukeFill.otf');
+}
+
+@font-face {
+    font-family: dukeShadow;
+    src: url('../duke/font/DukeShadow.otf');
+}
+
+@font-face {
+    font-family: duke;
+    src: url('../duke/font/Duke.otf');
+}
